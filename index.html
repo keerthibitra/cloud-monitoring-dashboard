@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cloud Monitoring Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>☁ Cloud Monitoring Dashboard</h1>
+
+<div class="card">
+<h2>CPU Usage</h2>
+<p id="cpu">0%</p>
+</div>
+
+<div class="card">
+<h2>Memory Usage</h2>
+<p id="memory">0%</p>
+</div>
+
+<div class="card">
+<h2>Disk Usage</h2>
+<p id="disk">0%</p>
+</div>
+
+<div class="card">
+<h2>Network Traffic</h2>
+<p id="network">0 Mbps</p>
+</div>
+
+<button onclick="generateMetrics()">
+Refresh Metrics
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
